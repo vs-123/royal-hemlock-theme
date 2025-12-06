@@ -63,7 +63,7 @@
 
    `(link ((,class (:foreground ,royal-hemlock/majestic-hemlock :underline t :weight bold))))))
 
-(provide-theme 'royal-hemlock)
+(provide-theme 'royal-hemlock-theme)
 (provide 'royal-hemlock-theme)
 
 ;;; royal-hemlock-theme.el ends here
