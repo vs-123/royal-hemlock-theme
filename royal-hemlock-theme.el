@@ -1,6 +1,7 @@
-;;; royal-hemlock-theme.el --- Soothing royal-blue light-theme. -*- lexical-binding: t; -*-
+;;; royal-hemlock-theme.el --- Soothing royal-blue light-theme -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025 vs-123
+;; SPDX-License-Identifier: AGPL-3.0-or-later
 
 ;; Author: vs-123 (GitHub)
 ;; Homepage: https://github.com/vs-123/royal-hemlock-theme
@@ -13,9 +14,8 @@
 
 ;;; Commentary:
 
-;; A light-theme with the core colour being
-;; Royal Blue for Emacs 24+, accompanied by
-;; a warm white background for a soothing
+;; A light-theme with the core colour being Royal Blue for Emacs 24+.
+;; The theme is accompanied by a warm white background for a soothing
 ;; experience.
 
 ;;; Code:
@@ -62,5 +62,10 @@
    `(link ((,class (:foreground ,royal-hemlock/majestic-hemlock :underline t :weight bold))))))
 
 (provide-theme 'royal-hemlock)
+
+;;; ###autoload
+(add-to-list
+  'custom-theme-load-path
+  (if load-file-name (file-name-directory load-file-name) default-directory))
 
 ;;; royal-hemlock-theme.el ends here
