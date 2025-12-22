@@ -63,7 +63,7 @@
 
 (provide-theme 'royal-hemlock)
 
-;;; ###autoload
+;;;###autoload
 (add-to-list
   'custom-theme-load-path
   (if load-file-name (file-name-directory load-file-name) default-directory))
