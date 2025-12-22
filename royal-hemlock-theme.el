@@ -28,6 +28,7 @@
       (royal-hemlock/white                 "#FFFFFF")
       
       (royal-hemlock/background            "#FFFFF9")
+      (royal-hemlock/hl-line-background    "#F2F2ED")
       (royal-hemlock/cursor                "#BFFFFF")
       (royal-hemlock/highlight-background  "#3FFFFF")
       (royal-hemlock/majestic-hemlock      "#0000BB")
@@ -41,6 +42,7 @@
 
    `(cursor  ((,class (:foreground ,royal-hemlock/white       :background ,royal-hemlock/black))))
    `(default ((,class (:foreground ,royal-hemlock/text-colour :background ,royal-hemlock/background))))
+   `(hl-line ((,class (:background ,royal-hemlock/hl-line-background))))   
    `(isearch ((,class (:foreground ,royal-hemlock/black       :background ,royal-hemlock/highlight-background :weight bold))))
    `(region  ((,class (:foreground ,royal-hemlock/black       :background ,royal-hemlock/cursor))))
 
@@ -62,6 +64,8 @@
 
    `(line-number              ((,class (:foreground ,royal-hemlock/grey             :background ,royal-hemlock/background :inherit 'default))))
    `(line-number-current-line ((,class (:foreground ,royal-hemlock/majestic-hemlock :background ,royal-hemlock/background :weight bold :inherit 'default))))
+
+
 
    `(link ((,class (:foreground ,royal-hemlock/majestic-hemlock :underline t :weight bold))))))
 
