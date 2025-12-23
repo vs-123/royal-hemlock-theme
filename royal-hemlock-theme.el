@@ -27,8 +27,8 @@
       (royal-hemlock/grey                  "#AAAAAA")
       (royal-hemlock/white                 "#FFFFFF")
       
-      (royal-hemlock/background            "#FFFFF9")
-      (royal-hemlock/hl-line-background    "#F2F2ED")
+      (royal-hemlock/background            "#FFFFED")
+      (royal-hemlock/hl-line-background    "#F2F2E1")
       (royal-hemlock/cursor                "#BFFFFF")
       (royal-hemlock/highlight-background  "#3FFFFF")
       (royal-hemlock/majestic-hemlock      "#0000BB")
