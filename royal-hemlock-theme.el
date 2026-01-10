@@ -62,7 +62,7 @@
    `(font-lock-number-face((,class (:foreground ,royal-hemlock/pink-colour      :weight bold))))
    `(font-lock-escape-face((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))   
 
-   `(line-number((,class (:foreground ,royal-hemlock/grey:background ,royal-hemlock/background :inherit 'default))))
+   `(line-number((,class (:foreground ,royal-hemlock/grey :background ,royal-hemlock/background :inherit 'default))))
    `(line-number-current-line((,class (	:foreground ,royal-hemlock/majestic-hemlock :background ,royal-hemlock/background :weight bold :inherit 'default))))
 
    `(link ((,class (:foreground ,royal-hemlock/majestic-hemlock :underline t :weight bold))))))
