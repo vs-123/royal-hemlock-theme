@@ -7,7 +7,7 @@
 ;; Homepage: https://github.com/vs-123/royal-hemlock-theme
 ;; Url: https://github.com/vs-123/royal-hemlock-theme
 ;; Version: 1.5
-;; Filename: mono-hemlock-theme.el
+;; Filename: royal-hemlock-mono-theme.el
 ;; Keywords: color theme faces
 ;; Package-Requires: ((emacs "24"))
 ;; Package-License: AGPL-3.0-or-later
