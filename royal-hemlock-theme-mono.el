@@ -9,7 +9,6 @@
 ;; Version: 1.5
 ;; Filename: royal-hemlock-theme-mono.el
 ;; Keywords: color theme faces
-;; Package-Requires: ((emacs "24"))
 ;; Package-License: AGPL-3.0-or-later
 
 ;;; Commentary:
@@ -39,7 +38,7 @@
 
    `(cursor  ((,class (:foreground ,mono-hemlock/white :background ,mono-hemlock/black))))
    `(default ((,class (:foreground ,mono-hemlock/text-colour :background ,mono-hemlock/background))))
-   `(hl-line ((,class (:background ,mono-hemlock/hl-line-background))))   
+   `(hl-line ((,class (:background ,mono-hemlock/hl-line-background))))
    `(isearch ((,class (:foreground ,mono-hemlock/isearch-background :background ,mono-hemlock/black))))
    `(region  ((,class (:foreground ,mono-hemlock/highlight-background :background ,mono-hemlock/black))))
    `(lazy-highlight  ((,class (:background ,mono-hemlock/isearch-background :foreground ,mono-hemlock/black :underline t))))
@@ -49,7 +48,7 @@
    `(minibuffer-prompt ((,class (:foreground ,mono-hemlock/text-colour :weight bold))))
 
    `(font-lock-builtin-face ((,class (   :foreground ,mono-hemlock/text-colour :weight bold))))
-   `(font-lock-constant-face ((,class (  :foreground ,mono-hemlock/text-colour :weight bold))))      
+   `(font-lock-constant-face ((,class (  :foreground ,mono-hemlock/text-colour :weight bold))))
    `(font-lock-keyword-face ((,class (   :foreground ,mono-hemlock/text-colour :weight bold))))
    `(font-lock-type-face ((,class (      :foreground ,mono-hemlock/text-colour :weight bold))))
 
@@ -71,5 +70,5 @@
   (if load-file-name (file-name-directory load-file-name) default-directory))
 
 (provide-theme 'royal-hemlock-theme-mono)
-
+(provide 'royal-hemlock-theme-mono)
 ;;; royal-hemlock-theme-mono.el ends here
