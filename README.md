@@ -2,7 +2,7 @@
 
 [![MELPA](https://melpa.org/packages/royal-hemlock-theme-badge.svg)](https://melpa.org/#/royal-hemlock-theme)
 
-This package provides two themes for Emacs 24+:
+This package provides the following themes for Emacs 24+:
 
 - **Royal Hemlock**: A soothing **light-theme** for Emacs, focused on **royal blue** colour against a warm white background.
 
