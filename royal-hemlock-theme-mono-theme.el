@@ -1,4 +1,4 @@
-;;; royal-hemlock-theme-mono.el --- Soothing monotone-ish light-theme -*- lexical-binding: t; -*-
+;;; royal-hemlock-theme-mono-theme.el --- Soothing monotone-ish light-theme -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025 vs-123
 ;; SPDX-License-Identifier: AGPL-3.0-or-later
@@ -7,7 +7,7 @@
 ;; Homepage: https://github.com/vs-123/royal-hemlock-theme
 ;; Url: https://github.com/vs-123/royal-hemlock-theme
 ;; Version: 1.5
-;; Filename: royal-hemlock-theme-mono.el
+;; Filename: royal-hemlock-theme-mono-theme.el
 ;; Keywords: color theme faces
 ;; Package-License: AGPL-3.0-or-later
 
@@ -19,7 +19,7 @@
 
 ;;; Code:
 
-(deftheme royal-hemlock-mono "Mono Hemlock Theme -- by vs-123.")
+(deftheme royal-hemlock-theme-mono "Mono Hemlock Theme -- by vs-123.")
 
 (let ((class '((class color) (min-colors 24)))
       (mono-hemlock/black                 "#000000")
@@ -34,7 +34,7 @@
       )
 
   (custom-theme-set-faces
-   'royal-hemlock-mono
+   'royal-hemlock-theme-mono
 
    `(cursor  ((,class (:foreground ,mono-hemlock/white :background ,mono-hemlock/black))))
    `(default ((,class (:foreground ,mono-hemlock/text-colour :background ,mono-hemlock/background))))
@@ -69,6 +69,6 @@
   'custom-theme-load-path
   (if load-file-name (file-name-directory load-file-name) default-directory))
 
-(provide-theme 'royal-hemlock-mono)
-(provide 'royal-hemlock-mono)
-;;; royal-hemlock-theme-mono.el ends here
+(provide-theme 'royal-hemlock-theme-mono)
+(provide 'royal-hemlock-theme-mono)
+;;; royal-hemlock-theme-mono-theme.el ends here
