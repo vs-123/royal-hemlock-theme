@@ -19,7 +19,7 @@
 
 ;;; Code:
 
-(deftheme royal-hemlock-theme-mono "Mono Hemlock Theme -- by vs-123.")
+(deftheme royal-hemlock-mono "Mono Hemlock Theme -- by vs-123.")
 
 (let ((class '((class color) (min-colors 24)))
       (mono-hemlock/black                 "#000000")
@@ -34,7 +34,7 @@
       )
 
   (custom-theme-set-faces
-   'royal-hemlock-theme-mono
+   'royal-hemlock-mono
 
    `(cursor  ((,class (:foreground ,mono-hemlock/white :background ,mono-hemlock/black))))
    `(default ((,class (:foreground ,mono-hemlock/text-colour :background ,mono-hemlock/background))))
@@ -69,6 +69,6 @@
   'custom-theme-load-path
   (if load-file-name (file-name-directory load-file-name) default-directory))
 
-(provide-theme 'royal-hemlock-theme-mono)
-(provide 'royal-hemlock-theme-mono)
+(provide-theme 'royal-hemlock-mono)
+(provide 'royal-hemlock-mono)
 ;;; royal-hemlock-theme-mono.el ends here
