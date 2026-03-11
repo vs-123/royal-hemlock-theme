@@ -84,7 +84,8 @@
      `(adoc-list-face ((,class (:foreground ,royal-hemlock/majestic-hemlock :background nil :inherit nil))))
      `(adoc-meta-hide-face ((,class (:foreground ,royal-hemlock/majestic-hemlock :background nil :inherit nil))))
      `(adoc-typewriter-face ((,class (:foreground ,royal-hemlock/majestic-hemlock :background nil :inherit nil))))
-     `(adoc-verbatim-face ((,class (:foreground ,royal-hemlock/majestic-hemlock :background nil :inherit nil))))          
+     `(adoc-verbatim-face ((,class (:foreground ,royal-hemlock/majestic-hemlock :background nil :inherit nil))))
+     `(adoc-bold-face ((,class (:foreground ,royal-hemlock/text-colour :background nil :weight bold :inherit nil))))               
      ) ;; custom-theme-set-faces
     ) ;; with-eval-after-load
   )
